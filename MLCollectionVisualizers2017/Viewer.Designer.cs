@@ -68,7 +68,7 @@
             this.tabDatos.Padding = new System.Windows.Forms.Padding(3);
             this.tabDatos.Size = new System.Drawing.Size(748, 405);
             this.tabDatos.TabIndex = 0;
-            this.tabDatos.Text = "Datos";
+            this.tabDatos.Text = "Data";
             this.tabDatos.UseVisualStyleBackColor = true;
             // 
             // gridDatos
@@ -89,9 +89,9 @@
             this.tabFiltros.Location = new System.Drawing.Point(4, 22);
             this.tabFiltros.Name = "tabFiltros";
             this.tabFiltros.Padding = new System.Windows.Forms.Padding(3);
-            this.tabFiltros.Size = new System.Drawing.Size(1192, 826);
+            this.tabFiltros.Size = new System.Drawing.Size(748, 405);
             this.tabFiltros.TabIndex = 1;
-            this.tabFiltros.Text = "Filtros";
+            this.tabFiltros.Text = "Filters";
             this.tabFiltros.UseVisualStyleBackColor = true;
             // 
             // linkLabel1
@@ -110,12 +110,12 @@
             // 
             this.button1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(3, 752);
+            this.button1.Location = new System.Drawing.Point(3, 331);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 3, 3, 100);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(1186, 71);
+            this.button1.Size = new System.Drawing.Size(742, 71);
             this.button1.TabIndex = 1;
-            this.button1.Text = "Aplicar Filtro";
+            this.button1.Text = "Apply Filter";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
@@ -124,7 +124,7 @@
             this.richTextBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.richTextBox1.Location = new System.Drawing.Point(3, 3);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(1186, 820);
+            this.richTextBox1.Size = new System.Drawing.Size(742, 399);
             this.richTextBox1.TabIndex = 0;
             this.richTextBox1.Text = "";
             this.richTextBox1.Enter += new System.EventHandler(this.richTextBox1_Enter);
@@ -152,8 +152,8 @@
             // toolStripStatusLabel2
             // 
             this.toolStripStatusLabel2.Name = "toolStripStatusLabel2";
-            this.toolStripStatusLabel2.Size = new System.Drawing.Size(55, 17);
-            this.toolStripStatusLabel2.Text = "Registros";
+            this.toolStripStatusLabel2.Size = new System.Drawing.Size(35, 17);
+            this.toolStripStatusLabel2.Text = "Rows";
             // 
             // toolStripStatusLabel1
             // 
