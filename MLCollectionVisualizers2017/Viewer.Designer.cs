@@ -40,6 +40,7 @@
             this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.txtTime = new System.Windows.Forms.ToolStripStatusLabel();
+            this.linkLabel2 = new System.Windows.Forms.LinkLabel();
             this.tabControl1.SuspendLayout();
             this.tabDatos.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridDatos)).BeginInit();
@@ -83,6 +84,7 @@
             // 
             // tabFiltros
             // 
+            this.tabFiltros.Controls.Add(this.linkLabel2);
             this.tabFiltros.Controls.Add(this.linkLabel1);
             this.tabFiltros.Controls.Add(this.button1);
             this.tabFiltros.Controls.Add(this.richTextBox1);
@@ -167,6 +169,18 @@
             this.txtTime.Size = new System.Drawing.Size(94, 17);
             this.txtTime.Text = "                             ";
             // 
+            // linkLabel2
+            // 
+            this.linkLabel2.AutoSize = true;
+            this.linkLabel2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.linkLabel2.Location = new System.Drawing.Point(3, 318);
+            this.linkLabel2.Name = "linkLabel2";
+            this.linkLabel2.Size = new System.Drawing.Size(61, 13);
+            this.linkLabel2.TabIndex = 3;
+            this.linkLabel2.TabStop = true;
+            this.linkLabel2.Text = "Filter Info";
+            this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            // 
             // Viewer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -202,5 +216,6 @@
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel2;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
         private System.Windows.Forms.ToolStripStatusLabel txtTime;
+        private System.Windows.Forms.LinkLabel linkLabel2;
     }
 }
