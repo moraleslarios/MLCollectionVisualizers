@@ -32,6 +32,7 @@
             this.tabDatos = new System.Windows.Forms.TabPage();
             this.gridDatos = new System.Windows.Forms.DataGridView();
             this.tabFiltros = new System.Windows.Forms.TabPage();
+            this.linkLabel2 = new System.Windows.Forms.LinkLabel();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.button1 = new System.Windows.Forms.Button();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
@@ -40,7 +41,6 @@
             this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.txtTime = new System.Windows.Forms.ToolStripStatusLabel();
-            this.linkLabel2 = new System.Windows.Forms.LinkLabel();
             this.tabControl1.SuspendLayout();
             this.tabDatos.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridDatos)).BeginInit();
@@ -95,6 +95,18 @@
             this.tabFiltros.TabIndex = 1;
             this.tabFiltros.Text = "Filters";
             this.tabFiltros.UseVisualStyleBackColor = true;
+            // 
+            // linkLabel2
+            // 
+            this.linkLabel2.AutoSize = true;
+            this.linkLabel2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.linkLabel2.Location = new System.Drawing.Point(3, 318);
+            this.linkLabel2.Name = "linkLabel2";
+            this.linkLabel2.Size = new System.Drawing.Size(82, 13);
+            this.linkLabel2.TabIndex = 4;
+            this.linkLabel2.TabStop = true;
+            this.linkLabel2.Text = "Filter Info ML";
+            this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // linkLabel1
             // 
@@ -168,18 +180,6 @@
             this.txtTime.Name = "txtTime";
             this.txtTime.Size = new System.Drawing.Size(94, 17);
             this.txtTime.Text = "                             ";
-            // 
-            // linkLabel2
-            // 
-            this.linkLabel2.AutoSize = true;
-            this.linkLabel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.linkLabel2.Location = new System.Drawing.Point(3, 318);
-            this.linkLabel2.Name = "linkLabel2";
-            this.linkLabel2.Size = new System.Drawing.Size(61, 13);
-            this.linkLabel2.TabIndex = 4;
-            this.linkLabel2.TabStop = true;
-            this.linkLabel2.Text = "Filter Info";
-            this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // Viewer
             // 
