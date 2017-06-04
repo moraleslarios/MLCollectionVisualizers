@@ -32,7 +32,7 @@ namespace MLCollectionVisualizers2017
             this.gridDatos.DataSource = this.Datos.DefaultView;
 
             this.txtRegistros.Text = this.Datos.DefaultView.Count.ToString("#,###,###,###,##0");
-            this.txtTime.Text = this.reloj.ElapsedMilliseconds.ToString("#,###,###,###,##0.00######") + "  Milisegundos";
+            this.txtTime.Text = this.reloj.ElapsedMilliseconds.ToString("#,###,###,###,##0.00######") + "  Miliseconds";
 
             this.reloj.Stop();
         }
@@ -117,7 +117,7 @@ namespace MLCollectionVisualizers2017
             catch (Exception ex)
             {
                 this.richTextBox1.ForeColor = Color.Red;
-                MessageBox.Show("El filtro indicado no es correcto");
+                MessageBox.Show("Incorrect Syntax");
             }
         }
 

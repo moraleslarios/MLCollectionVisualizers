@@ -60,7 +60,7 @@ namespace MLCollectionVisualizers2015
                         }
                         catch (Exception ex1)
                         {
-                            value = "Datos extraídos en error";
+                            value = "Extracted data with errors";
                         }
                         row.Add(value != null ? value : null);
                     }
@@ -71,7 +71,7 @@ namespace MLCollectionVisualizers2015
             }
             catch (Exception ex)
             {
-                System.Windows.Forms.MessageBox.Show("Ha ocurrido un error al Transformar los datos del DataTable a la clase, en la propiedad : " + nombrePropiedad + " Error : " + ex.Message, "Error en generación de Visualizador", System.Windows.Forms.MessageBoxButtons.OK, System.Windows.Forms.MessageBoxIcon.Error);
+                System.Windows.Forms.MessageBox.Show("There is a error with datatable transformation with the property : " + nombrePropiedad + " Error : " + ex.Message, "Error with visualization data", System.Windows.Forms.MessageBoxButtons.OK, System.Windows.Forms.MessageBoxIcon.Error);
                 return new DataTable();
             }
         }
@@ -109,7 +109,7 @@ namespace MLCollectionVisualizers2015
             }
             catch (Exception ex)
             {
-                System.Windows.Forms.MessageBox.Show("Ha ocurrido un error al Transformar los datos del DataTable a la clase Error : " + ex.Message, "Error en generación de Visualizador", System.Windows.Forms.MessageBoxButtons.OK, System.Windows.Forms.MessageBoxIcon.Error);
+                System.Windows.Forms.MessageBox.Show("An error has ocurred to transform datatable to class. Error : " + ex.Message, "Visualization Error", System.Windows.Forms.MessageBoxButtons.OK, System.Windows.Forms.MessageBoxIcon.Error);
                 return new DataTable();
             }
 
@@ -155,7 +155,7 @@ namespace MLCollectionVisualizers2015
         {
             if (coleccion == null)
             {
-                throw new ArgumentException("La colección introducida no puede ser nula");
+                throw new ArgumentException("The collection isn't null");
             }
 
             object resultado = null;
